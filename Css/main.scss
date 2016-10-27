@@ -1,0 +1,42 @@
+$font-stack:   'Times New Roman' Helvetica, sans-serif;
+$transparent: rgba(255,255,255,0.5);
+
+/******************/
+/* = les include */
+/*****************/
+
+body{
+  background: lightgray;
+  font-family: $font-stack ;
+  border: 1px solid #000000;
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+
+
+  :hover{
+    color: #3E4142;
+    text-decoration: underline;
+  }
+}
+
+.menu-index{
+  background: $transparent;
+  text-align: center;
+  border: 2px dashed $transparent;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer{
+  text-align: center;
+}

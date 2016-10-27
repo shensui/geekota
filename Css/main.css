@@ -1,0 +1,32 @@
+/******************/
+/* = les include */
+/*****************/
+body {
+  background: lightgray;
+  font-family: "Times New Roman" Helvetica, sans-serif;
+  border: 1px solid #000000;
+  padding-top: 50px; }
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center; }
+
+a {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer; }
+  a :hover {
+    color: #3E4142;
+    text-decoration: underline; }
+
+.menu-index {
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  padding: 10px; }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
