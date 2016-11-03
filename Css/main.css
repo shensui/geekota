@@ -4,7 +4,6 @@
 body {
   background: lightgray;
   font-family: "Times New Roman" Helvetica, sans-serif;
-  border: 1px solid #000000;
   padding-top: 50px; }
 
 .starter-template {
@@ -27,6 +26,30 @@ a {
   padding: 10px; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background-color: #222222;
+  border-color: #080808; }
+  footer .nav-footer {
+    color: black;
+    font-size: 16px; }
+  footer ul li {
+    border-left: 1px solid black; }
+
+a .fa-twitter,
+a .fa-twitter:hover {
+  color: #55acee;
+  text-decoration: none; }
+
+a .fa-facebook,
+a .fa-facebook:hover {
+  color: #4c66a4;
+  text-decoration: none; }
+
+a .fa-youtube,
+a .fa-youtube:hover {
+  color: #e52d27;
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

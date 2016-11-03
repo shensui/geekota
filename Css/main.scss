@@ -1,5 +1,8 @@
 $font-stack:   'Times New Roman' Helvetica, sans-serif;
 $transparent: rgba(255,255,255,0.5);
+$twitter: #55acee;
+$facebook: #4c66a4;
+$youtube: #e52d27;
 
 /******************/
 /* = les include */
@@ -8,7 +11,7 @@ $transparent: rgba(255,255,255,0.5);
 body{
   background: lightgray;
   font-family: $font-stack ;
-  border: 1px solid #000000;
+ // border: 1px solid #000000;
   padding-top: 50px;
 }
 
@@ -39,4 +42,29 @@ a{
 
 footer{
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background-color: rgb(34, 34, 34);
+  border-color: rgb(8, 8, 8);
+  .nav-footer{
+    color: black;
+    font-size: 16px;
+  }
+  ul li{border-left: 1px solid black;}
+}
+
+a .fa-twitter,
+a .fa-twitter:hover{
+  color: $twitter;
+  text-decoration: none;
+}
+a .fa-facebook,
+a .fa-facebook:hover{
+  color: $facebook;
+  text-decoration: none;
+}
+a .fa-youtube,
+a .fa-youtube:hover{
+  color: $youtube;
+  text-decoration: none;
 }
